@@ -1,4 +1,3 @@
-//your code here
 function sortBandNamesWithoutArticles(bandNames) {
     const articles = ['a', 'an', 'the'];
 
@@ -30,4 +29,3 @@ sortedBandNames.forEach(band => {
     liElement.textContent = band;
     ulElement.appendChild(liElement);
 });
-
